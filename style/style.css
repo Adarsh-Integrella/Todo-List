@@ -1,0 +1,61 @@
+body {
+  background: #00ffc8;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1 {
+  font-size: 5em;
+}
+.container {
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+}
+.allTaskList {
+  background-color: white;
+  min-height: 30px;
+  margin-top: 2%;
+  padding: 5px;
+  border-radius: 10px;
+}
+form {
+  background-color: white;
+  min-height: 50px;
+  border-radius: 10px;
+}
+button {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  background-color: blue;
+  color: whitesmoke;
+  margin: 10px;
+}
+input[type="submit"] {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  background-color: blue;
+  color: whitesmoke;
+}
+input[type="text"] {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.allTaskList .task {
+  margin: 1%;
+}
+#time {
+  color: rgb(128, 128, 128);
+}
+#error {
+  margin: 2%;
+  color: red;
+  font-weight: 600;
+}
